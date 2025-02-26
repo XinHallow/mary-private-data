@@ -2,5 +2,13 @@
   "imports": {
     "@std/assert": "jsr:@std/assert@^1.0.11",
     "@std/path": "jsr:@std/path@^1.0.8"
+  },
+  "deploy": {
+    "project": "ed5d513e-989d-43e0-bd5b-fb795a7bf40b",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "src\\main.ts"
   }
 }
